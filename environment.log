@@ -1,0 +1,593 @@
+LMOD_FAMILY_COMPILER_VERSION=18.0.3
+MKLROOT=/opt/intel/18.0.3/compilers_and_libraries_2018/linux/mkl
+GIT_PS1_SHOWDIRTYSTATE=1
+MANPATH=/opt/mvapich2/intel/18.0/2.3.1/share/man:/opt/intel/18.0.3/itac_latest/man:/opt/intel/18.0.3/documentation_2018/en/debugger/gdb-igfx/man:/opt/intel/18.0.3/inspector_2018/man:/opt/intel/18.0.3/compilers_and_libraries_2018/linux/man/common:/opt/torque/share/man:/opt/moab/man:/apps/lmod/lmod/share/man:/usr/share/man/overrides:/usr/share/man:/usr/local/share/man:/opt/ibutils/share/man:/opt/ddn/ime/share/man:/opt/puppetlabs/puppet/share/man:/opt/intel/18.0.3/vtune_amplifier/man:/opt/intel/18.0.3/advisor/man
+__LMOD_REF_COUNT_FPATH=/opt/intel/18.0.3/compilers_and_libraries_2018/linux/mkl/include:1
+XALT_ETC_DIR=/apps/xalt/etc
+RFM_OSC_TOPDIR=/users/PZS0530/USER/workspace/reframe
+HOSTNAME=p0220.ten.osc.edu
+_ModuleTable003_=IixbImZ1bGxOYW1lIl09Im12YXBpY2gyLzIuMy4xIixbImxvYWRPcmRlciJdPTUscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ibXZhcGljaDIvMi4zLjEiLH0seGFsdD17WyJmbiJdPSIvYXBwcy9sbW9kZmlsZXMvQ29yZS94YWx0L2xhdGVzdC5sdWEiLFsiZnVsbE5hbWUiXT0ieGFsdC9sYXRlc3QiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJ4YWx0Iix9LH0sbXBhdGhBPXsiL2FwcHMvbG1vZGZpbGVzL01QSS9pbnRlbC8xOC4wL212YXBpY2gyLzIuMyIsIi9hcHBzL2xtb2RmaWxlcy9Db21waWxlci9pbnRlbC8xOC4wIiwi
+PBS_VERSION=TORQUE-6.1.2
+MPI_FFLAGS=-I/opt/mvapich2/intel/18.0/2.3.1/include
+IPPROOT=/opt/intel/18.0.3/compilers_and_libraries_2018/linux/ipp
+MPICH_HOME=/opt/mvapich2/intel/18.0/2.3.1
+MPI_F90FLAGS=-I/opt/mvapich2/intel/18.0/2.3.1/include
+OSC_F90=ifort
+SHELL=/bin/bash
+TERM=screen-256color
+__LMOD_REF_COUNT_MODULEPATH=/apps/lmodfiles/MPI/intel/18.0/mvapich2/2.3:1;/apps/lmodfiles/Compiler/intel/18.0:1;/apps/lmodfiles/Linux:1;/apps/lmodfiles/Core:1;/apps/lmod/lmod/modulefiles/Core:1
+HISTSIZE=10000
+PBS_JOBNAME=STDIN
+MODULEPATH_ROOT=/apps/lmodfiles
+TMPDIR=/tmp/pbstmp.1773086
+LMOD_SYSTEM_DEFAULT_MODULES=modules
+XALT_EXECUTABLE_TRACKING=yes
+LMOD_PACKAGE_PATH=/apps/lmodfiles/site
+LIBRARY_PATH=/opt/intel/18.0.3/compilers_and_libraries_2018/linux/lib/intel64_lin:/opt/intel/18.0.3/compilers_and_libraries_2018/linux/daal/lib/intel64_lin:/opt/intel/18.0.3/compilers_and_libraries_2018/linux/ipp/lib/intel64_lin:/opt/intel/18.0.3/compilers_and_libraries_2018/linux/mkl/lib/intel64_lin:/opt/intel/18.0.3/compilers_and_libraries_2018/linux/tbb/lib/intel64_lin/gcc4.4
+__LMOD_REF_COUNT_COMPILER_PATH=/apps/xalt/xalt/bin:1
+LD_PRELOAD=/apps/xalt/xalt/lib64/libxalt_init.so
+PBS_ENVIRONMENT=PBS_INTERACTIVE
+LMOD_PKG=/apps/lmod/lmod
+FPATH=/opt/intel/18.0.3/compilers_and_libraries_2018/linux/mkl/include
+OSC_COMPILER=intel
+QTDIR=/usr/lib64/qt-3.3
+LMOD_VERSION=7.8.22
+QTINC=/usr/lib64/qt-3.3/include
+PBS_HOME=/var/spool/torque
+OSC_FAMILY_COMPATIBILITY=cxx17
+PBS_O_WORKDIR=/fs/ess/PZS0530/USER/src/trilinos-build-cuda/packages/shylu/shylu_node/tacho/example
+OSC_CC=icc
+GIT_PS1_SHOWCOLORHINTS=1
+__LMOD_REF_COUNT_LOADEDMODULES=xalt/latest:1;modules/sp2020:1;cxx17/7.3.0:1;intel/18.0.3:1;mvapich2/2.3.1:1
+QT_GRAPHICSSYSTEM_CHECKED=1
+OSC_INTEL_DIR=/opt/intel/18.0.3
+USER=USER
+PBS_TASKNUM=1
+MV2_CPU_BINDING_POLICY=hybrid
+OSC_COMPILER_MINOR=0
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+LMOD_sys=Linux
+LD_LIBRARY_PATH=/opt/mvapich2/intel/18.0/2.3.1/lib:/apps/gnu/7.3.0/lib64:/apps/gnu/7.3.0/lib:/opt/intel/18.0.3/debugger_2018/libipt/intel64/lib:/opt/intel/18.0.3/compilers_and_libraries_2018/linux/lib/intel64_lin:/opt/intel/18.0.3/compilers_and_libraries_2018/linux/daal/lib/intel64_lin:/opt/intel/18.0.3/compilers_and_libraries_2018/linux/ipp/lib/intel64_lin:/opt/intel/18.0.3/compilers_and_libraries_2018/linux/mkl/lib/intel64_lin:/opt/intel/18.0.3/compilers_and_libraries_2018/linux/tbb/lib/intel64_lin/gcc4.4:/users/PZS0530/USER/opt/libevent/2.1.8/lib:/opt/torque/lib64:/opt/torque/lib::
+PBS_O_HOME=/users/PZS0530/USER
+SINGULARITYENV_PREPEND_PATH=/apps/xalt/xalt/bin
+OSC_COMPILER_MAJOR=18
+OSC_FAMILY_MPI=mvapich2
+PBSCOREDUMP=""
+CPATH=/opt/intel/18.0.3/compilers_and_libraries_2018/linux/mkl/include:/opt/intel/18.0.3/compilers_and_libraries_2018/linux/tbb/include
+_ModuleTable004_=L2FwcHMvbG1vZGZpbGVzL0xpbnV4IiwiL2FwcHMvbG1vZGZpbGVzL0NvcmUiLCIvYXBwcy9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvYXBwcy9sbW9kZmlsZXMvTGludXg6L2FwcHMvbG1vZGZpbGVzL0NvcmU6L2FwcHMvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=
+PBS_WALLTIME=3600
+OSC_CXX=icpc
+__LMOD_REF_COUNT__LMFILES_=/apps/lmodfiles/Core/xalt/latest.lua:1;/apps/lmodfiles/Core/modules/sp2020.lua:1;/apps/lmodfiles/Compiler/intel/18.0/cxx17/7.3.0.lua:1;/apps/lmodfiles/Core/intel/18.0.3.lua:1;/apps/lmodfiles/Compiler/intel/18.0/mvapich2/2.3.1.lua:1
+PBS_MOMPORT=15003
+PBS_GPUFILE=/var/spool/torque/aux//1773086.pitzer-batch.ten.osc.edugpu
+LMOD_SITE_NAME=OSC
+LG_RT_DIR=/users/PZS0530/USER/src/legion2/runtime
+MPIEXEC_COMM=pmi
+ALLINEA_PAPI_CONFIG=/users/PZS0530/USER/.allinea/map/metrics/PAPI.config
+PBS_O_QUEUE=debug
+LMOD_PREPEND_BLOCK=normal
+LMOD_FAMILY_MPI_VERSION=2.3.1
+MPI_CFLAGS=-I/opt/mvapich2/intel/18.0/2.3.1/include
+MPI_CXXFLAGS=-I/opt/mvapich2/intel/18.0/2.3.1/include
+MPI_LIBS=-L/opt/mvapich2/intel/18.0/2.3.1/lib -lmpich -libverbs -lpthread
+NLSPATH=/opt/intel/18.0.3/debugger_2018/gdb/intel64/share/locale/%l_%t/%N:/opt/intel/18.0.3/compilers_and_libraries_2018/linux/lib/intel64_lin/locale/%l_%t/%N:/opt/intel/18.0.3/compilers_and_libraries_2018/linux/mkl/lib/intel64_lin/locale/%l_%t/%N
+PATH=/apps/xalt/xalt/bin:/opt/mvapich2/intel/18.0/2.3.1/bin:/apps/gnu/7.3.0/bin:/opt/intel/18.0.3/itac_latest/bin:/opt/intel/18.0.3/advisor/bin64:/opt/intel/18.0.3/vtune_amplifier/bin64:/opt/intel/18.0.3/inspector_2018/bin64:/opt/intel/18.0.3/compilers_and_libraries_2018/linux/bin/intel64:/users/PZS0530/USER/src/taucmdr/system/tau/tau-2.27/x86_64/bin:/users/PZS0530/USER/opt/zsh/5.8/bin:/users/PZS0530/USER/opt/git/2.15.1/bin:/users/PZS0530/USER/opt/threadspotter/1.3.12/bin:/users/PZS0530/USER/proj/opt/pFUnit/bin:/users/PZS0530/USER/opt/ctags/bin:/users/PZS0530/USER/opt/tmux/2.8/bin:/users/PZS0530/USER/opt/xalt_report:/users/PZS0530/USER/src/ninja:/users/PZS0530/USER/src/legion2/language:/users/PZS0530/USER/opt/llvm/3.5.0/bin:/users/PZS0530/USER/opt/GASNet/1.30.0/bin:/fs/project/PZS0530/USER/opt/taucmdr/scripts:/apps/software_usage:/opt/torque/bin:/usr/lib64/qt-3.3/bin:/opt/osc/bin:/opt/moab/bin:/bin:/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/ddn/ime/bin:/opt/puppetlabs/bin:/users/PZS0530/USER/opt/fish/3.0.2/usr/local/bin:/users/PZS0530/USER/.scripts:/users/PZS0530/USER/bin
+PBS_O_LOGNAME=USER
+MAIL=/var/spool/mail/USER
+__LMOD_REF_COUNT_NLSPATH=/opt/intel/18.0.3/debugger_2018/gdb/intel64/share/locale/%l_%t/%N:1;/opt/intel/18.0.3/compilers_and_libraries_2018/linux/lib/intel64_lin/locale/%l_%t/%N:1;/opt/intel/18.0.3/compilers_and_libraries_2018/linux/mkl/lib/intel64_lin/locale/%l_%t/%N:1
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPTg2NDAwLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXtbImNvbXBhdGliaWxpdHkiXT0iY3h4MTciLFsiY29tcGlsZXIiXT0iaW50ZWwiLFsibXBpIl09Im12YXBpY2gyIix9LG1UPXtjeHgxNz17WyJmbiJdPSIvYXBwcy9sbW9kZmlsZXMvQ29tcGlsZXIvaW50ZWwvMTguMC9jeHgxNy83LjMuMC5sdWEiLFsiZnVsbE5hbWUiXT0iY3h4MTcvNy4zLjAiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJjeHgxNyIsfSxpbnRlbD17WyJmbiJdPSIvYXBwcy9sbW9kZmlsZXMvQ29yZS9p
+PBS_O_LANG=en_US.UTF-8
+_=/bin/env
+PBS_JOBCOOKIE=5EBDD5B5F31CC3557390E10951D723EA
+LMOD_SETTARG_CMD=:
+OSC_FAMILY_COMPILER=intel
+OSC_MVAPICH2_DIR=/opt/mvapich2/intel/18.0/2.3.1
+TBBROOT=/opt/intel/18.0.3/compilers_and_libraries_2018/linux/tbb
+PWD=/fs/ess/PZS0530/USER/src/trilinos-build-cuda/packages/shylu/shylu_node/tacho/example
+PDSH_RCMD_TYPE=ssh
+R_LIBS=/users/PZS0530/USER/.local/R_libs/
+_LMFILES_=/apps/lmodfiles/Core/xalt/latest.lua:/apps/lmodfiles/Core/modules/sp2020.lua:/apps/lmodfiles/Compiler/intel/18.0/cxx17/7.3.0.lua:/apps/lmodfiles/Core/intel/18.0.3.lua:/apps/lmodfiles/Compiler/intel/18.0/mvapich2/2.3.1.lua
+LANG=en_US.UTF-8
+PBS_NODENUM=0
+MODULEPATH=/apps/lmodfiles/MPI/intel/18.0/mvapich2/2.3:/apps/lmodfiles/Compiler/intel/18.0:/apps/lmodfiles/Linux:/apps/lmodfiles/Core:/apps/lmod/lmod/modulefiles/Core
+MOABHOMEDIR=/var/spool/moab
+OSC_FAMILY_COMPILER_VERSION=18.0.3
+PBS_NUM_NODES=1
+KDEDIRS=/usr
+LMOD_SYSTEM_NAME=pitzer
+LOADEDMODULES=xalt/latest:modules/sp2020:cxx17/7.3.0:intel/18.0.3:mvapich2/2.3.1
+XALT_GPU_TRACKING=no
+_ModuleTable_Sz_=4
+PROJECT_DIR=/fs/project/PZS0530/USER
+OSC_DEFAULT_ACCOUNT=PZS0710
+PBS_O_SHELL=/bin/bash
+OSC_MVAPICH2_LIB=/opt/mvapich2/intel/18.0/2.3.1/lib
+GCC_COLORS=error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01
+LMOD_CMD=/apps/lmod/lmod/libexec/lmod
+OSC_MPI_CC=mpicc
+PBS_JOBID=1773086.pitzer-batch.ten.osc.edu
+LMOD_AVAIL_STYLE=system
+DAALROOT=/opt/intel/18.0.3/compilers_and_libraries_2018/linux/daal
+HISTIGNORE=clr:clc
+HISTCONTROL=ignoreboth
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+ENVIRONMENT=BATCH
+INTEL_PYTHONHOME=/opt/intel/18.0.3/debugger_2018/python/intel64
+OSC_F77=ifort
+OSC_FAMILY_COMPATIBILITY_VERSION=7.3.0
+GPG_TTY=/dev/pts/0
+PFUNIT=/users/PZS0530/USER/proj/opt/pFUnit
+HOME=/users/PZS0530/USER
+SHLVL=2
+OSC_FC=ifort
+OSC_MPI_CXX=mpic++
+__LMOD_REF_COUNT_PATH=/apps/xalt/xalt/bin:1;/opt/mvapich2/intel/18.0/2.3.1/bin:1;/apps/gnu/7.3.0/bin:1;/opt/intel/18.0.3/itac_latest/bin:1;/opt/intel/18.0.3/advisor/bin64:1;/opt/intel/18.0.3/vtune_amplifier/bin64:1;/opt/intel/18.0.3/inspector_2018/bin64:1;/opt/intel/18.0.3/compilers_and_libraries_2018/linux/bin/intel64:1;/users/PZS0530/USER/src/taucmdr/system/tau/tau-2.27/x86_64/bin:1;/users/PZS0530/USER/opt/zsh/5.8/bin:1;/users/PZS0530/USER/opt/git/2.15.1/bin:1;/users/PZS0530/USER/opt/threadspotter/1.3.12/bin:1;/users/PZS0530/USER/proj/opt/pFUnit/bin:1;/users/PZS0530/USER/opt/ctags/bin:1;/users/PZS0530/USER/opt/tmux/2.8/bin:1;/users/PZS0530/USER/opt/xalt_report:1;/users/PZS0530/USER/src/ninja:1;/users/PZS0530/USER/src/legion2/language:1;/users/PZS0530/USER/opt/llvm/3.5.0/bin:1;/users/PZS0530/USER/opt/GASNet/1.30.0/bin:1;/fs/project/PZS0530/USER/opt/taucmdr/scripts:1;/apps/software_usage:1;/opt/torque/bin:1;/usr/lib64/qt-3.3/bin:1;/opt/osc/bin:1;/opt/moab/bin:1;/bin:1;/usr/bin:1;/usr/local/bin:1;/usr/local/sbin:1;/usr/sbin:1;/opt/ibutils/bin:1;/opt/ddn/ime/bin:1;/opt/puppetlabs/bin:1;/users/PZS0530/USER/opt/fish/3.0.2/usr/local/bin:1;/users/PZS0530/USER/.scripts:1;/users/PZS0530/USER/bin:1
+PBS_DEFAULT=pitzer-batch.ten.osc.edu
+__LMOD_REF_COUNT_CPATH=/opt/intel/18.0.3/compilers_and_libraries_2018/linux/mkl/include:1;/opt/intel/18.0.3/compilers_and_libraries_2018/linux/tbb/include:1
+PBS_O_HOST=pitzer-login01.hpc.osc.edu
+_ModuleTable002_=bnRlbC8xOC4wLjMubHVhIixbImZ1bGxOYW1lIl09ImludGVsLzE4LjAuMyIsWyJsb2FkT3JkZXIiXT00LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImludGVsLzE4LjAuMyIsfSxtb2R1bGVzPXtbImZuIl09Ii9hcHBzL2xtb2RmaWxlcy9Db3JlL21vZHVsZXMvc3AyMDIwLmx1YSIsWyJmdWxsTmFtZSJdPSJtb2R1bGVzL3NwMjAyMCIsWyJsb2FkT3JkZXIiXT0yLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09Im1vZHVsZXMiLH0sbXZhcGljaDI9e1siZm4iXT0iL2FwcHMvbG1vZGZpbGVzL0NvbXBpbGVyL2ludGVsLzE4LjAvbXZhcGljaDIvMi4zLjEubHVh
+__LMOD_REF_COUNT_INCLUDE=/opt/intel/18.0.3/compilers_and_libraries_2018/linux/daal/include:1;/opt/intel/18.0.3/compilers_and_libraries_2018/linux/ipp/include:1;/opt/intel/18.0.3/compilers_and_libraries_2018/linux/mkl/include:1
+XALT_SCALAR_AND_SPSR_SAMPLING=yes
+PBS_VNODENUM=0
+BASH_ENV=/apps/lmod/lmod/init/bash
+OSC_MPI_FC=mpifort
+LOGNAME=USER
+LMOD_arch=x86_64
+LMOD_FAMILY_COMPATIBILITY_VERSION=7.3.0
+MV2_IBA_HCA=mlx5_0
+CVS_RSH=ssh
+QTLIB=/usr/lib64/qt-3.3/lib
+OSC_FAMILY_MPI_VERSION=2.3.1
+VISUAL=vim
+GIT_PS1_SHOWUPSTREAM=auto,verbose,name
+PBS_QUEUE=debug
+XDG_DATA_DIRS=/users/PZS0530/USER/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+PDSH_SSH_ARGS_APPEND=-oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oLogLevel=ERROR
+MODULESHOME=/apps/lmod/lmod
+PFSDIR=/fs/ess/scratch/PZS0710/USER/1773086.pitzer-batch.ten.osc.edu
+__LMOD_REF_COUNT_LIBRARY_PATH=/opt/intel/18.0.3/compilers_and_libraries_2018/linux/lib/intel64_lin:1;/opt/intel/18.0.3/compilers_and_libraries_2018/linux/daal/lib/intel64_lin:1;/opt/intel/18.0.3/compilers_and_libraries_2018/linux/ipp/lib/intel64_lin:1;/opt/intel/18.0.3/compilers_and_libraries_2018/linux/mkl/lib/intel64_lin:1;/opt/intel/18.0.3/compilers_and_libraries_2018/linux/tbb/lib/intel64_lin/gcc4.4:1
+LMOD_FAMILY_COMPATIBILITY=cxx17
+PBS_O_MAIL=/var/spool/mail/USER
+PBS_O_SUBMIT_FILTER=/usr/local/sbin/torque_submitfilter
+PBS_MICFILE=/var/spool/torque/aux//1773086.pitzer-batch.ten.osc.edumic
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LMOD_SETTARG_FULL_SUPPORT=no
+COMPILER_PATH=/apps/xalt/xalt/bin
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/mvapich2/intel/18.0/2.3.1/lib:1;/apps/gnu/7.3.0/lib64:1;/apps/gnu/7.3.0/lib:1;/opt/intel/18.0.3/debugger_2018/libipt/intel64/lib:1;/opt/intel/18.0.3/compilers_and_libraries_2018/linux/lib/intel64_lin:1;/opt/intel/18.0.3/compilers_and_libraries_2018/linux/daal/lib/intel64_lin:1;/opt/intel/18.0.3/compilers_and_libraries_2018/linux/ipp/lib/intel64_lin:1;/opt/intel/18.0.3/compilers_and_libraries_2018/linux/mkl/lib/intel64_lin:1;/opt/intel/18.0.3/compilers_and_libraries_2018/linux/tbb/lib/intel64_lin/gcc4.4:1;/users/PZS0530/USER/opt/libevent/2.1.8/lib:1;/opt/torque/lib64:1;/opt/torque/lib:1
+MV2_USE_RDMA_CM=0
+__Init_Default_Modules=1
+EMAIL=USER@osc.edu
+LMOD_FULL_SETTARG_SUPPORT=no
+__LMOD_REF_COUNT_LD_PRELOAD=/apps/xalt/xalt/lib64/libxalt_init.so:1
+LMOD_FAMILY_COMPILER=intel
+PBS_NP=40
+PBS_O_SERVER=pitzer-batch.ten.osc.edu
+PBS_NUM_PPN=40
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+LMOD_CACHED_LOADS=yes
+LMOD_DIR=/apps/lmod/lmod/libexec
+INCLUDE=/opt/intel/18.0.3/compilers_and_libraries_2018/linux/daal/include:/opt/intel/18.0.3/compilers_and_libraries_2018/linux/ipp/include:/opt/intel/18.0.3/compilers_and_libraries_2018/linux/mkl/include
+__LMOD_REF_COUNT_MANPATH=/opt/mvapich2/intel/18.0/2.3.1/share/man:1;/opt/intel/18.0.3/itac_latest/man:1;/opt/intel/18.0.3/documentation_2018/en/debugger/gdb-igfx/man:1;/opt/intel/18.0.3/inspector_2018/man:1;/opt/intel/18.0.3/compilers_and_libraries_2018/linux/man/common:1;/opt/torque/share/man:1;/opt/moab/man:1;/apps/lmod/lmod/share/man:1;/usr/share/man/overrides:1;/usr/share/man:1;/usr/local/share/man:1;/opt/ibutils/share/man:1;/opt/ddn/ime/share/man:2;/opt/puppetlabs/puppet/share/man:1;/opt/intel/18.0.3/vtune_amplifier/man:1;/opt/intel/18.0.3/advisor/man:1
+OSC_XALT_DIR=/apps/xalt/xalt
+__LMOD_Priority_PATH=/apps/xalt/xalt/bin:-100
+PBS_NODEFILE=/var/spool/torque/aux//1773086.pitzer-batch.ten.osc.edu
+LMOD_COLORIZE=yes
+LMOD_FAMILY_MPI=mvapich2
+PBS_O_PATH=/fs/project/PZS0710/USER/src/tau2/x86_64/bin:/users/PZS0530/USER/src/taucmdr/system/tau/./tau-2.27/x86_64/bin:/users/PZS0530/USER/opt/git/2.15.1/bin:/users/PZS0530/USER/opt/threadspotter/1.3.12/bin:/users/PZS0530/USER/proj/opt/pFUnit/bin:/users/PZS0530/USER/opt/ctags/bin:/users/PZS0530/USER/opt/tmux/2.8/bin:/users/PZS0530/USER/opt/xalt_report:/users/PZS0530/USER/src/ninja/:/users/PZS0530/USER/src/legion2/language:/users/PZS0530/USER/opt/llvm/3.5.0/bin:/users/PZS0530/USER/opt/GASNet/1.30.0/bin:/fs/project/PZS0530/USER/opt/taucmdr/scripts:/opt/torque/bin:/opt/osc/bin:/opt/moab/bin:/users/PZS0530/USER/src/taucmdr/system/tau/./tau-2.27/x86_64/bin:/users/PZS0530/USER/opt/git/2.15.1/bin:/users/PZS0530/USER/opt/threadspotter/1.3.12/bin:/users/PZS0530/USER/proj/opt/pFUnit/bin:/users/PZS0530/USER/opt/ctags/bin:/users/PZS0530/USER/opt/tmux/2.8/bin:/users/PZS0530/USER/opt/xalt_report:/users/PZS0530/USER/src/ninja/:/users/PZS0530/USER/src/legion2/language:/users/PZS0530/USER/opt/llvm/3.5.0/bin:/users/PZS0530/USER/opt/GASNet/1.30.0/bin:/fs/project/PZS0530/USER/opt/taucmdr/scripts:/apps/xalt/xalt/bin:/opt/mvapich2/intel/19.0/2.3.3/bin:/apps/gnu/8.4.0/bin:/opt/intel/19.0.5/itac_latest/bin:/opt/intel/19.0.5/advisor/bin64:/opt/intel/19.0.5/vtune_amplifier/bin64:/opt/intel/19.0.5/inspector_2019/bin64:/opt/intel/19.0.5/compilers_and_libraries_2019/linux/bin/intel64:/apps/software_usage:/opt/torque/bin:/usr/lib64/qt-3.3/bin:/opt/osc/bin:/opt/moab/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/ddn/ime/bin:/opt/puppetlabs/bin:/users/PZS0530/USER/opt/fish/3.0.2/usr/local/bin:/users/PZS0530/USER/.scripts:/users/PZS0530/USER/bin:/opt/ddn/ime/bin:/users/PZS0530/USER/opt/fish/3.0.2/usr/local/bin:/users/PZS0530/USER/.scripts:/users/PZS0530/USER/bin
+WARP3D_HOME=/users/PZS0530/USER/warp3d_project
+GASNET_ROOT=/users/PZS0530/USER/opt/GASNet/1.30.0
+BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@") && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
++ lsb_release -a
+LSB Version:	:core-4.1-amd64:core-4.1-noarch:cxx-4.1-amd64:cxx-4.1-noarch:desktop-4.1-amd64:desktop-4.1-noarch:languages-4.1-amd64:languages-4.1-noarch:printing-4.1-amd64:printing-4.1-noarch
+Distributor ID:	RedHatEnterpriseServer
+Description:	Red Hat Enterprise Linux Server release 7.7 (Maipo)
+Release:	7.7
+Codename:	Maipo
++ uname -a
+Linux p0220.ten.osc.edu 3.10.0-1062.18.1.el7.x86_64 #1 SMP Wed Feb 12 14:08:31 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
++ lscpu
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                40
+On-line CPU(s) list:   0-39
+Thread(s) per core:    1
+Core(s) per socket:    20
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz
+Stepping:              4
+CPU MHz:               999.755
+CPU max MHz:           3700.0000
+CPU min MHz:           1000.0000
+BogoMIPS:              4800.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              28160K
+NUMA node0 CPU(s):     0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38
+NUMA node1 CPU(s):     1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_pt ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d
++ cat /proc/meminfo
+MemTotal:       196638224 kB
+MemFree:        185388268 kB
+MemAvailable:   186813176 kB
+Buffers:           47864 kB
+Cached:          1302048 kB
+SwapCached:       153340 kB
+Active:           640704 kB
+Inactive:        1628608 kB
+Active(anon):     394144 kB
+Inactive(anon):  1172468 kB
+Active(file):     246560 kB
+Inactive(file):   456140 kB
+Unevictable:     4330544 kB
+Mlocked:         4330544 kB
+SwapTotal:      50331644 kB
+SwapFree:       48968252 kB
+Dirty:                96 kB
+Writeback:             0 kB
+AnonPages:       5119596 kB
+Mapped:           346396 kB
+Shmem:            612240 kB
+Slab:            2010440 kB
+SReclaimable:    1473284 kB
+SUnreclaim:       537156 kB
+KernelStack:       27344 kB
+PageTables:        25164 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    148650756 kB
+Committed_AS:    8105412 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:     1032600 kB
+VmallocChunk:   34258083820 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:   4458496 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      612372 kB
+DirectMap2M:    49328128 kB
+DirectMap1G:    152043520 kB
++ inxi -F -c0
+./collect_environment.sh: line 14: inxi: command not found
++ lsblk -a
+NAME               MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda                  8:0    0 931.5G  0 disk 
+└─sda1               8:1    0 931.5G  0 part 
+  ├─vg0-lv_state   253:0    0    16G  0 lvm  /var/lib/stateless/state
+  ├─vg0-lv_rw      253:1    0    16G  0 lvm  /var/lib/stateless/writable
+  ├─vg0-lv_fscache 253:2    0    32G  0 lvm  /var/cache/fscache
+  ├─vg0-lv_swap    253:3    0    48G  0 lvm  [SWAP]
+  └─vg0-lv_tmp     253:4    0 819.5G  0 lvm  /tmp
+loop0                7:0    0         1 loop 
++ lsscsi -s
+[2:0:0:0]    disk    ATA      ST1000NX0443     NB33  /dev/sda   1.00TB
++ module list
+++ /apps/lmod/lmod/libexec/lmod bash list
+
+Currently Loaded Modules:
+  1) xalt/latest   2) modules/sp2020   3) cxx17/7.3.0   4) intel/18.0.3   5) mvapich2/2.3.1
+
+ 
+
++ eval 'MODULEPATH=/apps/lmodfiles/MPI/intel/18.0/mvapich2/2.3:/apps/lmodfiles/Compiler/intel/18.0:/apps/lmodfiles/Linux:/apps/lmodfiles/Core:/apps/lmod/lmod/modulefiles/Core;' export 'MODULEPATH;' '_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPTg2NDAwLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXtbImNvbXBhdGliaWxpdHkiXT0iY3h4MTciLFsiY29tcGlsZXIiXT0iaW50ZWwiLFsibXBpIl09Im12YXBpY2gyIix9LG1UPXtjeHgxNz17WyJmbiJdPSIvYXBwcy9sbW9kZmlsZXMvQ29tcGlsZXIvaW50ZWwvMTguMC9jeHgxNy83LjMuMC5sdWEiLFsiZnVsbE5hbWUiXT0iY3h4MTcvNy4zLjAiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJjeHgxNyIsfSxpbnRlbD17WyJmbiJdPSIvYXBwcy9sbW9kZmlsZXMvQ29yZS9p;' export '_ModuleTable001_;' '_ModuleTable002_=bnRlbC8xOC4wLjMubHVhIixbImZ1bGxOYW1lIl09ImludGVsLzE4LjAuMyIsWyJsb2FkT3JkZXIiXT00LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImludGVsLzE4LjAuMyIsfSxtb2R1bGVzPXtbImZuIl09Ii9hcHBzL2xtb2RmaWxlcy9Db3JlL21vZHVsZXMvc3AyMDIwLmx1YSIsWyJmdWxsTmFtZSJdPSJtb2R1bGVzL3NwMjAyMCIsWyJsb2FkT3JkZXIiXT0yLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09Im1vZHVsZXMiLH0sbXZhcGljaDI9e1siZm4iXT0iL2FwcHMvbG1vZGZpbGVzL0NvbXBpbGVyL2ludGVsLzE4LjAvbXZhcGljaDIvMi4zLjEubHVh;' export '_ModuleTable002_;' '_ModuleTable003_=IixbImZ1bGxOYW1lIl09Im12YXBpY2gyLzIuMy4xIixbImxvYWRPcmRlciJdPTUscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ibXZhcGljaDIvMi4zLjEiLH0seGFsdD17WyJmbiJdPSIvYXBwcy9sbW9kZmlsZXMvQ29yZS94YWx0L2xhdGVzdC5sdWEiLFsiZnVsbE5hbWUiXT0ieGFsdC9sYXRlc3QiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJ4YWx0Iix9LH0sbXBhdGhBPXsiL2FwcHMvbG1vZGZpbGVzL01QSS9pbnRlbC8xOC4wL212YXBpY2gyLzIuMyIsIi9hcHBzL2xtb2RmaWxlcy9Db21waWxlci9pbnRlbC8xOC4wIiwi;' export '_ModuleTable003_;' '_ModuleTable004_=L2FwcHMvbG1vZGZpbGVzL0xpbnV4IiwiL2FwcHMvbG1vZGZpbGVzL0NvcmUiLCIvYXBwcy9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvYXBwcy9sbW9kZmlsZXMvTGludXg6L2FwcHMvbG1vZGZpbGVzL0NvcmU6L2FwcHMvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=;' export '_ModuleTable004_;' '_ModuleTable_Sz_=4;' export '_ModuleTable_Sz_;'
+++ MODULEPATH=/apps/lmodfiles/MPI/intel/18.0/mvapich2/2.3:/apps/lmodfiles/Compiler/intel/18.0:/apps/lmodfiles/Linux:/apps/lmodfiles/Core:/apps/lmod/lmod/modulefiles/Core
+++ export MODULEPATH
+++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPTg2NDAwLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXtbImNvbXBhdGliaWxpdHkiXT0iY3h4MTciLFsiY29tcGlsZXIiXT0iaW50ZWwiLFsibXBpIl09Im12YXBpY2gyIix9LG1UPXtjeHgxNz17WyJmbiJdPSIvYXBwcy9sbW9kZmlsZXMvQ29tcGlsZXIvaW50ZWwvMTguMC9jeHgxNy83LjMuMC5sdWEiLFsiZnVsbE5hbWUiXT0iY3h4MTcvNy4zLjAiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJjeHgxNyIsfSxpbnRlbD17WyJmbiJdPSIvYXBwcy9sbW9kZmlsZXMvQ29yZS9p
+++ export _ModuleTable001_
+++ _ModuleTable002_=bnRlbC8xOC4wLjMubHVhIixbImZ1bGxOYW1lIl09ImludGVsLzE4LjAuMyIsWyJsb2FkT3JkZXIiXT00LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImludGVsLzE4LjAuMyIsfSxtb2R1bGVzPXtbImZuIl09Ii9hcHBzL2xtb2RmaWxlcy9Db3JlL21vZHVsZXMvc3AyMDIwLmx1YSIsWyJmdWxsTmFtZSJdPSJtb2R1bGVzL3NwMjAyMCIsWyJsb2FkT3JkZXIiXT0yLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09Im1vZHVsZXMiLH0sbXZhcGljaDI9e1siZm4iXT0iL2FwcHMvbG1vZGZpbGVzL0NvbXBpbGVyL2ludGVsLzE4LjAvbXZhcGljaDIvMi4zLjEubHVh
+++ export _ModuleTable002_
+++ _ModuleTable003_=IixbImZ1bGxOYW1lIl09Im12YXBpY2gyLzIuMy4xIixbImxvYWRPcmRlciJdPTUscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ibXZhcGljaDIvMi4zLjEiLH0seGFsdD17WyJmbiJdPSIvYXBwcy9sbW9kZmlsZXMvQ29yZS94YWx0L2xhdGVzdC5sdWEiLFsiZnVsbE5hbWUiXT0ieGFsdC9sYXRlc3QiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0xLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJ4YWx0Iix9LH0sbXBhdGhBPXsiL2FwcHMvbG1vZGZpbGVzL01QSS9pbnRlbC8xOC4wL212YXBpY2gyLzIuMyIsIi9hcHBzL2xtb2RmaWxlcy9Db21waWxlci9pbnRlbC8xOC4wIiwi
+++ export _ModuleTable003_
+++ _ModuleTable004_=L2FwcHMvbG1vZGZpbGVzL0xpbnV4IiwiL2FwcHMvbG1vZGZpbGVzL0NvcmUiLCIvYXBwcy9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvYXBwcy9sbW9kZmlsZXMvTGludXg6L2FwcHMvbG1vZGZpbGVzL0NvcmU6L2FwcHMvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=
+++ export _ModuleTable004_
+++ _ModuleTable_Sz_=4
+++ export _ModuleTable_Sz_
+++ : -s sh
++ eval
++ nvidia-smi
+NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+
++ lshw -short -quiet -sanitize
++ cat
+WARNING: you should run this program as super-user.
+H/W path         Device  Class          Description
+===================================================
+                         system         Computer
+/0                       bus            Motherboard
+/0/0                     memory         191GiB System memory
+/0/2                     processor      Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz
+/0/4                     processor      Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz
+/0/100                   bridge         Sky Lake-E DMI3 Registers
+/0/100/5                 generic        Sky Lake-E MM/Vt-d Configuration Registers
+/0/100/5.2               generic        Sky Lake-E RAS
+/0/100/5.4               generic        Sky Lake-E IOAPIC
+/0/100/8                 generic        Sky Lake-E Ubox Registers
+/0/100/8.1               generic        Sky Lake-E Ubox Registers
+/0/100/8.2               generic        Sky Lake-E Ubox Registers
+/0/100/11                generic        C620 Series Chipset Family MROM 0
+/0/100/11.5              storage        C620 Series Chipset Family SSATA Controller [AHCI mode]
+/0/100/14                bus            C620 Series Chipset Family USB 3.0 xHCI Controller
+/0/100/14.2              generic        C620 Series Chipset Family Thermal Subsystem
+/0/100/16                communication  C620 Series Chipset Family MEI Controller #1
+/0/100/16.1              communication  C620 Series Chipset Family MEI Controller #2
+/0/100/16.4              communication  C620 Series Chipset Family MEI Controller #3
+/0/100/17                storage        C620 Series Chipset Family SATA Controller [AHCI mode]
+/0/100/1c                bridge         C620 Series Chipset Family PCI Express Root Port #1
+/0/100/1c.4              bridge         C620 Series Chipset Family PCI Express Root Port #5
+/0/100/1c.4/0            bridge         PLDA
+/0/100/1c.4/0/0          display        Integrated Matrox G200eW3 Graphics Controller
+/0/100/1c.5              bridge         C620 Series Chipset Family PCI Express Root Port #6
+/0/100/1f                bridge         C621 Series Chipset LPC/eSPI Controller
+/0/100/1f.2              memory         Memory controller
+/0/100/1f.4              bus            C620 Series Chipset Family SMBus
+/0/100/1f.5              bus            C620 Series Chipset Family SPI Controller
+/0/101                   bridge         Sky Lake-E PCI Express Root Port C
+/0/101/0         p3p1    network        Ethernet Controller X710 for 10GbE SFP+
+/0/101/0.1       p3p2    network        Ethernet Controller X710 for 10GbE SFP+
+/0/6                     generic        Sky Lake-E VT-d
+/0/7                     generic        Sky Lake-E RAS Configuration Registers
+/0/9                     generic        Sky Lake-E IOxAPIC Configuration Registers
+/0/a                     generic        Sky Lake-E CHA Registers
+/0/b                     generic        Sky Lake-E CHA Registers
+/0/c                     generic        Sky Lake-E CHA Registers
+/0/d                     generic        Sky Lake-E CHA Registers
+/0/e                     generic        Sky Lake-E CHA Registers
+/0/f                     generic        Sky Lake-E CHA Registers
+/0/10                    generic        Sky Lake-E CHA Registers
+/0/11                    generic        Sky Lake-E CHA Registers
+/0/12                    generic        Sky Lake-E CHA Registers
+/0/13                    generic        Sky Lake-E CHA Registers
+/0/14                    generic        Sky Lake-E CHA Registers
+/0/15                    generic        Sky Lake-E CHA Registers
+/0/16                    generic        Sky Lake-E CHA Registers
+/0/17                    generic        Sky Lake-E CHA Registers
+/0/18                    generic        Sky Lake-E CHA Registers
+/0/19                    generic        Sky Lake-E CHA Registers
+/0/1a                    generic        Sky Lake-E CHA Registers
+/0/1b                    generic        Sky Lake-E CHA Registers
+/0/1c                    generic        Sky Lake-E CHA Registers
+/0/1d                    generic        Sky Lake-E CHA Registers
+/0/1e                    generic        Sky Lake-E CHA Registers
+/0/1f                    generic        Sky Lake-E CHA Registers
+/0/20                    generic        Sky Lake-E CHA Registers
+/0/21                    generic        Sky Lake-E CHA Registers
+/0/22                    generic        Sky Lake-E CHA Registers
+/0/23                    generic        Sky Lake-E CHA Registers
+/0/24                    generic        Sky Lake-E CHA Registers
+/0/25                    generic        Sky Lake-E CHA Registers
+/0/26                    generic        Sky Lake-E CHA Registers
+/0/27                    generic        Sky Lake-E CHA Registers
+/0/28                    generic        Sky Lake-E CHA Registers
+/0/29                    generic        Sky Lake-E CHA Registers
+/0/2a                    generic        Sky Lake-E CHA Registers
+/0/2b                    generic        Sky Lake-E CHA Registers
+/0/2c                    generic        Sky Lake-E CHA Registers
+/0/2d                    generic        Sky Lake-E CHA Registers
+/0/2e                    generic        Sky Lake-E CHA Registers
+/0/2f                    generic        Sky Lake-E CHA Registers
+/0/30                    generic        Sky Lake-E CHA Registers
+/0/31                    generic        Sky Lake-E CHA Registers
+/0/32                    generic        Sky Lake-E CHA Registers
+/0/33                    generic        Sky Lake-E CHA Registers
+/0/34                    generic        Sky Lake-E CHA Registers
+/0/35                    generic        Sky Lake-E CHA Registers
+/0/36                    generic        Sky Lake-E CHA Registers
+/0/37                    generic        Sky Lake-E CHA Registers
+/0/38                    generic        Sky Lake-E CHA Registers
+/0/39                    generic        Sky Lake-E CHA Registers
+/0/3a                    generic        Sky Lake-E CHA Registers
+/0/3b                    generic        Sky Lake-E CHA Registers
+/0/3c                    generic        Sky Lake-E CHA Registers
+/0/3d                    generic        Sky Lake-E CHA Registers
+/0/3e                    generic        Sky Lake-E CHA Registers
+/0/3f                    generic        Sky Lake-E CHA Registers
+/0/40                    generic        Sky Lake-E CHA Registers
+/0/41                    generic        Sky Lake-E CHA Registers
+/0/42                    generic        Sky Lake-E CHA Registers
+/0/43                    generic        Sky Lake-E CHA Registers
+/0/44                    generic        Sky Lake-E CHA Registers
+/0/45                    generic        Sky Lake-E CHA Registers
+/0/46                    generic        Sky Lake-E PCU Registers
+/0/47                    generic        Sky Lake-E PCU Registers
+/0/48                    generic        Sky Lake-E PCU Registers
+/0/49                    generic        Sky Lake-E PCU Registers
+/0/4a                    generic        Sky Lake-E PCU Registers
+/0/4b                    generic        Sky Lake-E PCU Registers
+/0/4c                    generic        Sky Lake-E PCU Registers
+/0/4d                    generic        Sky Lake-E VT-d
+/0/4e                    generic        Sky Lake-E RAS Configuration Registers
+/0/4f                    generic        Sky Lake-E IOxAPIC Configuration Registers
+/0/50                    generic        Sky Lake-E Integrated Memory Controller
+/0/51                    generic        Sky Lake-E Integrated Memory Controller
+/0/52                    generic        Sky Lake-E Integrated Memory Controller
+/0/53                    generic        Sky Lake-E Integrated Memory Controller
+/0/54                    generic        Sky Lake-E Integrated Memory Controller
+/0/55                    generic        Sky Lake-E Integrated Memory Controller
+/0/56                    generic        Sky Lake-E Integrated Memory Controller
+/0/57                    generic        Sky Lake-E LM Channel 1
+/0/58                    generic        Sky Lake-E LMS Channel 1
+/0/59                    generic        Sky Lake-E LMDP Channel 1
+/0/5a                    generic        Sky Lake-E DECS Channel 2
+/0/5b                    generic        Sky Lake-E LM Channel 2
+/0/5c                    generic        Sky Lake-E LMS Channel 2
+/0/5d                    generic        Sky Lake-E LMDP Channel 2
+/0/5e                    generic        Sky Lake-E Integrated Memory Controller
+/0/5f                    generic        Sky Lake-E Integrated Memory Controller
+/0/60                    generic        Sky Lake-E Integrated Memory Controller
+/0/61                    generic        Sky Lake-E Integrated Memory Controller
+/0/62                    generic        Sky Lake-E Integrated Memory Controller
+/0/63                    generic        Sky Lake-E LM Channel 1
+/0/64                    generic        Sky Lake-E LMS Channel 1
+/0/65                    generic        Sky Lake-E LMDP Channel 1
+/0/66                    generic        Sky Lake-E DECS Channel 2
+/0/67                    generic        Sky Lake-E LM Channel 2
+/0/68                    generic        Sky Lake-E LMS Channel 2
+/0/69                    generic        Sky Lake-E LMDP Channel 2
+/0/102                   bridge         Sky Lake-E PCI Express Root Port A
+/0/102/0         ib0     network        MT27800 Family [ConnectX-5]
+/0/6a                    generic        Sky Lake-E VT-d
+/0/6b                    generic        Sky Lake-E RAS Configuration Registers
+/0/6c                    generic        Sky Lake-E IOxAPIC Configuration Registers
+/0/6d                    generic        Sky Lake-E KTI 0
+/0/6e                    generic        Sky Lake-E UPI Registers
+/0/6f                    generic        Sky Lake-E KTI 0
+/0/70                    generic        Sky Lake-E UPI Registers
+/0/71                    generic        Sky Lake-E KTI 0
+/0/72                    generic        Sky Lake-E UPI Registers
+/0/73                    generic        Sky Lake-E M3KTI Registers
+/0/74                    generic        Sky Lake-E M3KTI Registers
+/0/75                    generic        Sky Lake-E M3KTI Registers
+/0/76                    generic        Sky Lake-E M3KTI Registers
+/0/77                    generic        Sky Lake-E M3KTI Registers
+/0/78                    generic        Sky Lake-E M2PCI Registers
+/0/79                    generic        Sky Lake-E M2PCI Registers
+/0/7a                    generic        Sky Lake-E M2PCI Registers
+/0/7b                    generic        Sky Lake-E M2PCI Registers
+/0/7c                    generic        Sky Lake-E MM/Vt-d Configuration Registers
+/0/7d                    generic        Sky Lake-E RAS
+/0/7e                    generic        Sky Lake-E IOAPIC
+/0/7f                    generic        Sky Lake-E Ubox Registers
+/0/80                    generic        Sky Lake-E Ubox Registers
+/0/81                    generic        Sky Lake-E Ubox Registers
+/0/82                    generic        Sky Lake-E VT-d
+/0/83                    generic        Sky Lake-E RAS Configuration Registers
+/0/84                    generic        Sky Lake-E IOxAPIC Configuration Registers
+/0/85                    generic        Sky Lake-E CHA Registers
+/0/8.1                   generic        Sky Lake-E CHA Registers
+/0/8.2                   generic        Sky Lake-E CHA Registers
+/0/86                    generic        Sky Lake-E CHA Registers
+/0/87                    generic        Sky Lake-E CHA Registers
+/0/88                    generic        Sky Lake-E CHA Registers
+/0/89                    generic        Sky Lake-E CHA Registers
+/0/8a                    generic        Sky Lake-E CHA Registers
+/0/8b                    generic        Sky Lake-E CHA Registers
+/0/8c                    generic        Sky Lake-E CHA Registers
+/0/8d                    generic        Sky Lake-E CHA Registers
+/0/8e                    generic        Sky Lake-E CHA Registers
+/0/8f                    generic        Sky Lake-E CHA Registers
+/0/90                    generic        Sky Lake-E CHA Registers
+/0/91                    generic        Sky Lake-E CHA Registers
+/0/92                    generic        Sky Lake-E CHA Registers
+/0/93                    generic        Sky Lake-E CHA Registers
+/0/94                    generic        Sky Lake-E CHA Registers
+/0/95                    generic        Sky Lake-E CHA Registers
+/0/96                    generic        Sky Lake-E CHA Registers
+/0/97                    generic        Sky Lake-E CHA Registers
+/0/98                    generic        Sky Lake-E CHA Registers
+/0/99                    generic        Sky Lake-E CHA Registers
+/0/9a                    generic        Sky Lake-E CHA Registers
+/0/9b                    generic        Sky Lake-E CHA Registers
+/0/9c                    generic        Sky Lake-E CHA Registers
+/0/9d                    generic        Sky Lake-E CHA Registers
+/0/9e                    generic        Sky Lake-E CHA Registers
+/0/9f                    generic        Sky Lake-E CHA Registers
+/0/a0                    generic        Sky Lake-E CHA Registers
+/0/a1                    generic        Sky Lake-E CHA Registers
+/0/a2                    generic        Sky Lake-E CHA Registers
+/0/a3                    generic        Sky Lake-E CHA Registers
+/0/a4                    generic        Sky Lake-E CHA Registers
+/0/a5                    generic        Sky Lake-E CHA Registers
+/0/a6                    generic        Sky Lake-E CHA Registers
+/0/a7                    generic        Sky Lake-E CHA Registers
+/0/a8                    generic        Sky Lake-E CHA Registers
+/0/a9                    generic        Sky Lake-E CHA Registers
+/0/aa                    generic        Sky Lake-E CHA Registers
+/0/ab                    generic        Sky Lake-E CHA Registers
+/0/ac                    generic        Sky Lake-E CHA Registers
+/0/ad                    generic        Sky Lake-E CHA Registers
+/0/ae                    generic        Sky Lake-E CHA Registers
+/0/af                    generic        Sky Lake-E CHA Registers
+/0/b0                    generic        Sky Lake-E CHA Registers
+/0/b1                    generic        Sky Lake-E CHA Registers
+/0/b2                    generic        Sky Lake-E CHA Registers
+/0/b3                    generic        Sky Lake-E CHA Registers
+/0/b4                    generic        Sky Lake-E CHA Registers
+/0/b5                    generic        Sky Lake-E CHA Registers
+/0/b6                    generic        Sky Lake-E CHA Registers
+/0/b7                    generic        Sky Lake-E CHA Registers
+/0/b8                    generic        Sky Lake-E CHA Registers
+/0/b9                    generic        Sky Lake-E CHA Registers
+/0/ba                    generic        Sky Lake-E CHA Registers
+/0/bb                    generic        Sky Lake-E CHA Registers
+/0/bc                    generic        Sky Lake-E CHA Registers
+/0/bd                    generic        Sky Lake-E CHA Registers
+/0/be                    generic        Sky Lake-E CHA Registers
+/0/bf                    generic        Sky Lake-E PCU Registers
+/0/c0                    generic        Sky Lake-E PCU Registers
+/0/c1                    generic        Sky Lake-E PCU Registers
+/0/c2                    generic        Sky Lake-E PCU Registers
+/0/c3                    generic        Sky Lake-E PCU Registers
+/0/c4                    generic        Sky Lake-E PCU Registers
+/0/c5                    generic        Sky Lake-E PCU Registers
+/0/c6                    generic        Sky Lake-E VT-d
+/0/c7                    generic        Sky Lake-E RAS Configuration Registers
+/0/c8                    generic        Sky Lake-E IOxAPIC Configuration Registers
+/0/8                     generic        Sky Lake-E Integrated Memory Controller
+/0/c9                    generic        Sky Lake-E Integrated Memory Controller
+/0/ca                    generic        Sky Lake-E Integrated Memory Controller
+/0/cb                    generic        Sky Lake-E Integrated Memory Controller
+/0/cc                    generic        Sky Lake-E Integrated Memory Controller
+/0/cd                    generic        Sky Lake-E Integrated Memory Controller
+/0/ce                    generic        Sky Lake-E Integrated Memory Controller
+/0/cf                    generic        Sky Lake-E LM Channel 1
+/0/d0                    generic        Sky Lake-E LMS Channel 1
+/0/d1                    generic        Sky Lake-E LMDP Channel 1
+/0/d2                    generic        Sky Lake-E DECS Channel 2
+/0/d3                    generic        Sky Lake-E LM Channel 2
+/0/d4                    generic        Sky Lake-E LMS Channel 2
+/0/d5                    generic        Sky Lake-E LMDP Channel 2
+/0/d6                    generic        Sky Lake-E Integrated Memory Controller
+/0/d7                    generic        Sky Lake-E Integrated Memory Controller
+/0/d8                    generic        Sky Lake-E Integrated Memory Controller
+/0/d9                    generic        Sky Lake-E Integrated Memory Controller
+/0/da                    generic        Sky Lake-E Integrated Memory Controller
+/0/db                    generic        Sky Lake-E LM Channel 1
+/0/dc                    generic        Sky Lake-E LMS Channel 1
+/0/dd                    generic        Sky Lake-E LMDP Channel 1
+/0/de                    generic        Sky Lake-E DECS Channel 2
+/0/df                    generic        Sky Lake-E LM Channel 2
+/0/e0                    generic        Sky Lake-E LMS Channel 2
+/0/e1                    generic        Sky Lake-E LMDP Channel 2
+/0/103                   bridge         Sky Lake-E PCI Express Root Port A
+/0/1                     bridge         Sky Lake-E PCI Express Root Port B
+/0/104                   bridge         Sky Lake-E PCI Express Root Port C
+/0/3                     bridge         Sky Lake-E PCI Express Root Port D
+/0/5                     generic        Sky Lake-E VT-d
+/0/5.2                   generic        Sky Lake-E RAS Configuration Registers
+/0/5.4                   generic        Sky Lake-E IOxAPIC Configuration Registers
+/0/e2                    generic        Sky Lake-E KTI 0
+/0/e3                    generic        Sky Lake-E UPI Registers
+/0/e4                    generic        Sky Lake-E KTI 0
+/0/e5                    generic        Sky Lake-E UPI Registers
+/0/e6                    generic        Sky Lake-E KTI 0
+/0/e7                    generic        Sky Lake-E UPI Registers
+/0/e8                    generic        Sky Lake-E M3KTI Registers
+/0/e9                    generic        Sky Lake-E M3KTI Registers
+/0/ea                    generic        Sky Lake-E M3KTI Registers
+/0/eb                    generic        Sky Lake-E M3KTI Registers
+/0/ec                    generic        Sky Lake-E M3KTI Registers
+/0/ed                    generic        Sky Lake-E M2PCI Registers
+/0/ee                    generic        Sky Lake-E M2PCI Registers
+/0/ef                    generic        Sky Lake-E M2PCI Registers
+/0/f0                    generic        Sky Lake-E M2PCI Registers
+/0/f1                    system         PnP device PNP0b00
+/0/f2                    system         PnP device PNP0c02
+/0/f3                    communication  PnP device PNP0501
+/0/f4                    system         PnP device PNP0c02
+/0/f5                    system         PnP device PNP0c02
+WARNING: output may be incomplete or inaccurate, you should run this program as super-user.

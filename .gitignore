@@ -1,0 +1,7 @@
+*.o
+*.a
+*.tmp
+KokkosCore_config.h
+Tacho_ExampleDenseByBlocks
+graph500_locking
+graph500_nonlocking
