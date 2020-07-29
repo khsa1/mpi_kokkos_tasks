@@ -1,8 +1,8 @@
 CXX=mpic++
 CXXFLAGS=-qopenmp -mkl
 
-TRILINOS_OPT=/fs/project/PZS0530/skhuvis/src/trilinos-build
-TRILINOS_SRC=/fs/project/PZS0530/skhuvis/src/Trilinos
+TRILINOS_OPT=
+TRILINOS_SRC=
 KOKKOS_PATH=${TRILINOS_SRC}/packages/kokkos
 SHYLU_SRC=${TRILINOS_SRC}/packages/shylu/shylu_node/tacho/src
 SHYLU_OPT=${TRILINOS_OPT}/packages/shylu/shylu_node/tacho/src

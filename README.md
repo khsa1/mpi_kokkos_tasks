@@ -39,7 +39,7 @@ TPL_ENABLE_MPI:BOOL=OFF -D Trilinos_ENABLE_Fortran:BOOL=OFF -D TPL_ENABLE_Pthrea
 
 ## Building MPI+Kokkos codes
 
-The included Makefile contains will build three applications:
+The included Makefile will build three applications:
 
 1. MPI+Kokkos GEMM code
 2. MPI+Kokkos locking Graph500
